@@ -1,0 +1,10 @@
+.unActive {
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.active {
+  color: rgb(192, 55, 55);
+  font-weight: bolder;
+}

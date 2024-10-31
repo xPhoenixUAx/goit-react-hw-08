@@ -22,7 +22,7 @@ const Modal = ({ contact }) => {
               <Form className="w-80 flex-col flex gap-5 m-auto ">
                 <label className="form-control w-full max-w-xs">
                   <span className="text-slate-200 font-bold mb-4">
-                    Edit name
+                    Змінити ім&apos;я
                   </span>
                   <Field
                     type="text"
@@ -33,7 +33,7 @@ const Modal = ({ contact }) => {
                 </label>
                 <label className="form-control w-full max-w-xs">
                   <span className="text-slate-200 font-bold mb-4">
-                    Edit phone
+                    Змінити номер
                   </span>
                   <Field
                     type="tel"
@@ -46,7 +46,7 @@ const Modal = ({ contact }) => {
                   className=" border-transparent bg-red-900 text-slate-100 hover:bg-red-700 px-20 m-auto  py-3 rounded-md"
                   type="submit"
                 >
-                  Edit contact
+                  Редагувати контакт
                 </button>
               </Form>
             </Formik>
@@ -55,7 +55,7 @@ const Modal = ({ contact }) => {
           <div className="modal-action">
             <form method="dialog">
               {/* if there is a button in form, it will close the modal */}
-              <button className="btn">Close</button>
+              <button className="btn">Закрити</button>
             </form>
           </div>
         </div>
